@@ -1,0 +1,46 @@
+body {
+	background-color: #675D4D;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #444014;
+	color: white;
+}
+
+h2 {
+	font-size: 60px;
+	color: #483319;
+}
+
+h3 {
+	color: #483319;
+	font-size: 30px;
+}
+
+div {
+	text-align: center;
+}
+
+button {
+	background-color: #B9956E;
+	font-size: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+	margin: 25px;
+}
+
+img {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: #38261D solid;
+	border-width: thick;
+}
+
+a {
+	display: block;
+}
