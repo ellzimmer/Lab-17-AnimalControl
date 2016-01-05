@@ -7,27 +7,27 @@ app.config(function($routeProvider){
     			templateUrl: 'cat.html',
     			controller: 'animalCtrl'
     		})
- 		.when('/dog', 
- 			{
+ 	  	.when('/dog', 
+ 		   	{
     			templateUrl: 'dog.html',
     			controller: 'animalCtrl'
   			})
- 		.when('/hedgehog', 
- 			{
+ 	  	.when('/hedgehog', 
+ 		   	{
     			templateUrl: 'hedgehog.html',
     			controller: 'animalCtrl'
   			})
- 		.when('/fish', 
- 			{
+ 		 .when('/fish', 
+ 	  		{
     			templateUrl: 'fish.html',
     			controller: 'animalCtrl'
   			})
  		$routeProvider.otherwise( 
- 			{
+ 		   	{
     			templateUrl: '404.html',
     			controller: 'animalCtrl'
-  		});
-});
+  	   	});
+    });
 
 app.controller('animalCtrl', function(){
   
