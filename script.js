@@ -28,7 +28,5 @@ app.config(function($routeProvider){
     			controller: 'animalCtrl'
   	   	});
     });
-
 app.controller('animalCtrl', function(){
-  
 });
